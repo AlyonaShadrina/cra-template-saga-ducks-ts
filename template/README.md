@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) (typescript template).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [saga-ducks-ts template](https://github.com/AlyonaShadrina/cra-template-saga-ducks-ts).
 
 ## Available Scripts
 
