@@ -1,7 +1,18 @@
 {
-  "name": "cra-typescript",
+  "name": "cra-template-saga-ducks-ts",
   "version": "0.1.0",
-  "private": true,
+  "main": "template.json",
+  "files": ["template", "template.json"],
+  "keywords": [
+    "react", 
+    "create-react-app",
+    "cra-template",
+    "template",
+    "redux",
+    "react-redux",
+    "redux-saga",
+    "typescript"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
