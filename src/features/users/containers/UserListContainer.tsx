@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import UserList from '../components/UserList';
@@ -10,11 +10,13 @@ const UserListContainer = () => {
 
   const users = useSelector(selectors.usersList);
   
-  useEffect(() => {
-    console.log('useEffect');
-    
+  const getAllUsers = useCallback(() => {
     dispatch(actions.allUsersRequest());
-  }, []);
+  }, [dispatch]);
+
+  useEffect(() => {
+    getAllUsers();
+  }, [getAllUsers]);
 
   return (
     <div className="fontSize-smaller">

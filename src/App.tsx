@@ -5,7 +5,7 @@ import Users from './pages/Users'
 import './App.css';
 import configureStore from './store';
 
-const store = configureStore();
+export const store = configureStore();
 
 function App() {
   return (

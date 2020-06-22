@@ -10,7 +10,7 @@ const UserList = ({ users }: Props) => {
     <div className="fontSize-smaller">
       UserList
       {users.map(user => (
-        <div className="fontSize-smaller">
+        <div className="fontSize-smaller" key={user.id}>
           {`${user.first_name} ${user.last_name}`}
         </div>
       ))}
