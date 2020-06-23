@@ -1,7 +1,7 @@
 {
   "name": "cra-template-saga-ducks-ts",
   "description": "Create React App template with TypeScript, Redux, Redux-Saga, Axios and feature-based file structure",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "main": "template.json",
   "files": ["template", "template.json"],
   "keywords": [
